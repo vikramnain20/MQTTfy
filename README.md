@@ -1,8 +1,8 @@
 # MQTTfy
 Your Unified Dashboard: Visualize MQTT, API &amp; Bluetooth Data with an AI Assistant. In Any Language.
-MQTTfy provides a powerful, real-time, and configurable dashboard to monitor and interact with your MQTT Bluetooth Rest API-enabled devices and applications. Perfect for IoT, IIoT, and home automation.
+ [MQTTfy](https://mqtt-ble.com) provides a powerful, real-time, and configurable dashboard to monitor and interact with your MQTT Bluetooth Rest API-enabled devices and applications. Perfect for IoT, IIoT, and home automation.
 
-The Internet of Things (IoT) landscape has exploded with a diverse array of protocols, devices, and communication methods. Managing multiple devices across different protocols — MQTT, REST APIs, and Bluetooth — has traditionally required separate applications and complex integrations. MQTTfy unified dashboard emerges as a game-changing solution that consolidates all these communication channels into a single, powerful, and intuitive platform for real-time monitoring, control, and visualization of IoT devices.
+[The Internet of Things (IoT)](https://mqtt-ble.com) landscape has exploded with a diverse array of protocols, devices, and communication methods. Managing multiple devices across different protocols — MQTT, REST APIs, and Bluetooth — has traditionally required separate applications and complex integrations. MQTTfy unified dashboard emerges as a game-changing solution that consolidates all these communication channels into a single, powerful, and intuitive platform for real-time monitoring, control, and visualization of IoT devices.
 In this comprehensive guide, we’ll explore how MQTTfy revolutionizes IoT device management through its multi-protocol support, extensive widget library, custom JavaScript capabilities, multilingual interface, and cutting-edge Web Bluetooth API integration for smart home automation.
 
 Understanding the Need for Unified IoT Dashboards
@@ -10,7 +10,7 @@ Modern IoT ecosystems are inherently complex, with devices communicating through
 
 MQTTfy addresses this challenge by providing a unified interface that seamlessly integrates all major IoT communication protocols. This consolidation eliminates the need for switching between multiple dashboards, reduces training overhead, and provides a single source of truth for all IoT data.​
 
-Core Features of MQTTfy Unified Dashboard
+Core Features of [MQTTfy Unified Dashboard](https://mqtt-ble.com)
 Multi-Protocol Support: MQTT, REST API, and Bluetooth Integration
 The foundation of MQTTfy’s power lies in its comprehensive protocol support. The platform connects to MQTT brokers using industry-standard connections, supporting all three Quality of Service (QoS) levels — QoS 0 (at most once), QoS 1 (at least once), and QoS 2 (exactly once) — ensuring reliable message delivery based on application requirements.​
 

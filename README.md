@@ -9,25 +9,25 @@ To start the dashboard immediately, run the following command in your terminal:
 docker run -d -p 8080:8080 mqttfy/mqttfy-dashboard:latest
 
 
-[The Internet of Things (IoT)](https://mqtt-ble.com) landscape has exploded with a diverse array of protocols, devices, and communication methods. Managing multiple devices across different protocols —[MQTT](https://mqtt-ble.com),[REST API](https://mqtt-ble.com), and [Bluetooth](https://mqtt-ble.com) — has traditionally required separate applications and complex integrations. MQTTfy unified dashboard emerges as a game-changing solution that consolidates all these communication channels into a single, powerful, and intuitive platform for real-time monitoring, control, and visualization of IoT devices.
+## [The Internet of Things (IoT)](https://mqtt-ble.com) landscape has exploded with a diverse array of protocols, devices, and communication methods. Managing multiple devices across different protocols —[MQTT](https://mqtt-ble.com),[REST API](https://mqtt-ble.com), and [Bluetooth](https://mqtt-ble.com) — has traditionally required separate applications and complex integrations. MQTTfy unified dashboard emerges as a game-changing solution that consolidates all these communication channels into a single, powerful, and intuitive platform for real-time monitoring, control, and visualization of IoT devices.
 In this comprehensive guide, we’ll explore how MQTTfy revolutionizes IoT device management through its multi-protocol support, extensive widget library, custom JavaScript capabilities, multilingual interface, and cutting-edge Web Bluetooth API integration for smart home automation.
 
-Understanding the Need for Unified IoT Dashboards
+## Understanding the Need for Unified IoT Dashboards
 Modern IoT ecosystems are inherently complex, with devices communicating through various protocols. MQTT ([Message Queuing Telemetry Transport](https://mqtt-ble.com)) has become the backbone of industrial IoT due to its lightweight nature and [publish-subscribe](https://mqtt-ble.com) architecture. Meanwhile, REST APIs provide flexibility for web-based integrations, and Bluetooth Low Energy (BLE) enables direct device-to-device communication for smart home applications. Managing these disparate systems traditionally required multiple applications, leading to fragmented workflows and reduced operational efficiency.​
 
-MQTTfy addresses this challenge by providing a unified interface that seamlessly integrates all major IoT communication protocols. This consolidation eliminates the need for switching between multiple dashboards, reduces training overhead, and provides a single source of truth for all IoT data.​
+## MQTTfy addresses this challenge by providing a unified interface that seamlessly integrates all major IoT communication protocols. This consolidation eliminates the need for switching between multiple dashboards, reduces training overhead, and provides a single source of truth for all IoT data.​
 
-Core Features of [MQTTfy Unified Dashboard](https://mqtt-ble.com)
+## Core Features of [MQTTfy Unified Dashboard](https://mqtt-ble.com)
 Multi-Protocol Support: MQTT, REST API, and Bluetooth Integration
 The foundation of MQTTfy’s power lies in its comprehensive protocol support. The platform connects to MQTT brokers using industry-standard connections, supporting all three Quality of Service ([QoS](https://mqtt-ble.com)) levels — QoS 0 (at most once), QoS 1 (at least once), and QoS 2 (exactly once) — ensuring reliable message delivery based on application requirements.​
 
-For REST API integration, MQTTfy enables seamless data exchange between web services and IoT devices. This bidirectional communication allows the central dashboard to send control commands through REST API interfaces while receiving real-time data through MQTT protocols. This hybrid approach combines the real-time performance of MQTT with the flexibility and wide compatibility of REST APIs.​
+## For REST API integration, MQTTfy enables seamless data exchange between web services and IoT devices. This bidirectional communication allows the central dashboard to send control commands through REST API interfaces while receiving real-time data through MQTT protocols. This hybrid approach combines the real-time performance of MQTT with the flexibility and wide compatibility of REST APIs.​
 
-What truly sets MQTTfy apart is its implementation of the Web Bluetooth API for direct browser-to-device communication. Through Web Bluetooth integration, users can connect to Bluetooth Low Energy devices directly from their web browser without requiring native applications or plugins. This capability is transformative for smart home automation, enabling users to control lights, thermostats, door locks, and security systems directly from the dashboard.​
+## What truly sets MQTTfy apart is its implementation of the Web Bluetooth API for direct browser-to-device communication. Through Web Bluetooth integration, users can connect to Bluetooth Low Energy devices directly from their web browser without requiring native applications or plugins. This capability is transformative for smart home automation, enabling users to control lights, thermostats, door locks, and security systems directly from the dashboard.​
 
 The Web Bluetooth API works through a discovery process that identifies available BLE devices and services, then provides access to the GATT (Generic Attribute Profile) for reading and writing data to device characteristics. MQTTfy leverages this technology to create a seamless experience where users can scan for nearby devices, establish secure connections, and control them — all within a single dashboard interface.​
 
-Extensive Widget Library for Data Visualization
+## Extensive Widget Library for Data Visualization
 MQTTfy provides a comprehensive collection of pre-built widgets designed for diverse visualization and control needs. The widget library includes:​
 
 Charts and Graphs: Line charts, bar graphs, pie charts, and real-time streaming charts for visualizing time-series sensor data
@@ -39,7 +39,6 @@ Image Feeds: Camera widgets for displaying live video feeds from API sources​
 Iframe Widgets: Embed external web pages directly into your dashboard for extended functionality​
 Each widget is fully configurable, allowing users to customize colors, thresholds, update intervals, and data sources to match their specific requirements. The dashboard supports multiple layouts optimized for different screen sizes, from large 4K displays in control rooms to mobile devices for field operators.​
 
-Press enter or click to view image in full size
 
 MQTTfy Home automation with ESP32 Microcontroller
 Custom JavaScript Widgets: Unlimited Flexibility
@@ -59,7 +58,7 @@ For teams looking to standardize their visual language, custom widgets enable th
 Multilingual Interface: Global Accessibility
 In today’s globalized world, IoT solutions must support international teams and customers. MQTTfy incorporates comprehensive multilingual support, allowing the entire interface to be displayed in the user’s preferred language.​​
 
-The internationalization system goes beyond simple UI translation. MQTTfy enables customization of:
+## The internationalization system goes beyond simple UI translation. MQTTfy enables customization of:
 
 Dashboard titles and descriptions
 Widget labels and legends
@@ -71,7 +70,7 @@ The multilingual capabilities work through a translation key system where interf
 
 This feature proves invaluable for multinational organizations managing IoT deployments across different regions, international equipment vendors serving global markets, and smart home solution providers targeting diverse consumer markets. By presenting information in the user’s native language, MQTTfy reduces training time, minimizes errors, and improves overall user experience.​
 
-MQTT: The Foundation of Real-Time IoT Communication
+## MQTT: The Foundation of Real-Time IoT Communication
 To understand why MQTTfy centers on MQTT as its primary protocol, it’s essential to understand MQTT’s advantages for IoT applications.​
 
 MQTT is a lightweight, publish-subscribe messaging protocol designed specifically for constrained devices and unreliable networks. Its key characteristics include:​

@@ -2,9 +2,10 @@
 Your Unified Dashboard: Visualize MQTT, API &amp; Bluetooth Data with an AI Assistant. In Any Language.
  [MQTTfy](https://mqtt-ble.com) provides a powerful, real-time, and configurable dashboard to monitor and interact with your MQTT Bluetooth Rest API-enabled devices and applications. Perfect for IoT, IIoT, and home automation.
 
- How to Run -free with all feature full version--
+## 🚀 How to Run in docker free full version
 To start the dashboard immediately, run the following command in your terminal:
 
+```bash
 docker run -d -p 8080:8080 mqttfy/mqttfy-dashboard:latest
 
 

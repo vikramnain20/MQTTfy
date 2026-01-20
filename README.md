@@ -1,23 +1,16 @@
 # MQTTfy
 Your Unified Dashboard: Visualize MQTT, API &amp; Bluetooth Data with an AI Assistant. In Any Language.
  [MQTTfy](https://mqtt-ble.com) provides a powerful, real-time, and configurable dashboard to monitor and interact with your MQTT Bluetooth Rest API-enabled devices and applications. Perfect for IoT, IIoT, and home automation.
-
-## 🚀 How to Run in docker free full version
-To start the dashboard immediately, run the following command in your terminal:
-
-```bash
-docker run -d -p 8080:8080 mqttfy/mqttfy-dashboard:latest
-
-
-## [The Internet of Things (IoT)](https://mqtt-ble.com) landscape has exploded with a diverse array of protocols, devices, and communication methods. Managing multiple devices across different protocols —[MQTT](https://mqtt-ble.com),[REST API](https://mqtt-ble.com), and [Bluetooth](https://mqtt-ble.com) — has traditionally required separate applications and complex integrations. MQTTfy unified dashboard emerges as a game-changing solution that consolidates all these communication channels into a single, powerful, and intuitive platform for real-time monitoring, control, and visualization of IoT devices.
+ 
+[The Internet of Things (IoT)](https://mqtt-ble.com) landscape has exploded with a diverse array of protocols, devices, and communication methods. Managing multiple devices across different protocols —[MQTT](https://mqtt-ble.com),[REST API](https://mqtt-ble.com), and [Bluetooth](https://mqtt-ble.com) — has traditionally required separate applications and complex integrations. MQTTfy unified dashboard emerges as a game-changing solution that consolidates all these communication channels into a single, powerful, and intuitive platform for real-time monitoring, control, and visualization of IoT devices.
 In this comprehensive guide, we’ll explore how MQTTfy revolutionizes IoT device management through its multi-protocol support, extensive widget library, custom JavaScript capabilities, multilingual interface, and cutting-edge Web Bluetooth API integration for smart home automation.
 
-## Understanding the Need for Unified IoT Dashboards
+Understanding the Need for Unified IoT Dashboards
 Modern IoT ecosystems are inherently complex, with devices communicating through various protocols. MQTT ([Message Queuing Telemetry Transport](https://mqtt-ble.com)) has become the backbone of industrial IoT due to its lightweight nature and [publish-subscribe](https://mqtt-ble.com) architecture. Meanwhile, REST APIs provide flexibility for web-based integrations, and Bluetooth Low Energy (BLE) enables direct device-to-device communication for smart home applications. Managing these disparate systems traditionally required multiple applications, leading to fragmented workflows and reduced operational efficiency.​
 
 ## MQTTfy addresses this challenge by providing a unified interface that seamlessly integrates all major IoT communication protocols. This consolidation eliminates the need for switching between multiple dashboards, reduces training overhead, and provides a single source of truth for all IoT data.​
 
-## Core Features of [MQTTfy Unified Dashboard](https://mqtt-ble.com)
+Core Features of [MQTTfy Unified Dashboard](https://mqtt-ble.com)
 Multi-Protocol Support: MQTT, REST API, and Bluetooth Integration
 The foundation of MQTTfy’s power lies in its comprehensive protocol support. The platform connects to MQTT brokers using industry-standard connections, supporting all three Quality of Service ([QoS](https://mqtt-ble.com)) levels — QoS 0 (at most once), QoS 1 (at least once), and QoS 2 (exactly once) — ensuring reliable message delivery based on application requirements.​
 
@@ -172,3 +165,10 @@ The combination of extensive pre-built widgets, unlimited custom JavaScript flex
 Whether you’re managing a smart factory with thousands of sensors, monitoring a fleet of vehicles, controlling a smart home, or overseeing distributed environmental monitoring systems, MQTTfy provides the tools, flexibility, and integration capabilities to transform raw IoT data into actionable insights and effective control.
 
 By breaking down protocol barriers and providing a truly unified interface, MQTTfy represents the next evolution in IoT dashboard technology — one where seamless connectivity, intelligent visualization, and user-centered design converge to unlock the full potential of connected devices.
+
+
+## 🚀 How to Run in docker free full version
+To start the dashboard immediately, run the following command in your terminal:
+
+```bash
+docker run -d -p 8080:8080 mqttfy/mqttfy-dashboard:latest
